@@ -1,11 +1,25 @@
+# Maven
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
+
+# IDE - Eclipse
+.settings/
+.project
+.classpath
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+
+# Application runtime data
+data/
+logs/
+
+# Local Maven repository, if it exists inside the project
+.m2-repo/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

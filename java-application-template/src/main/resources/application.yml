@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: task-manager-service
+    
+  profiles:
+    active: default
+
+  jpa:
+    open-in-view: false
+
+  flyway:
+    locations: classpath:db/migration
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+        
